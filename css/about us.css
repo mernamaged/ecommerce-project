@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.navbar {
+    display: flex;
+    font-size: 20px;
+    background-color:#0Ea8b9;
+    height: 110px;
+}
+.navbar ul {
+    padding: 15px;
+}
+.navbar li {
+    display: inline-block;
+    padding: 5px;
+}
+.navbar a {
+    color: white; 
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	transition: all 0.2s; 
+    text-transform: uppercase;
+}
+.navbar a:hover {
+    opacity: 0.7;
+}
+.nav-img {
+    margin-right: auto;
+    margin-left: 50px;
+    height: 100px;
+    margin-top: 5px;
+}
+.dropdown-menu li {
+    display: block;
+}
+.dropdown-menu {
+    background-color:#046271 ;
+    opacity: 0.8;
+    position: absolute;
+    display: none;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+p{
+    font-size: 20px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.column {
+    width: 40%;
+    margin-bottom: 16px;
+    padding: 10px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    padding: 5px;
+}
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5dcb;
+    color: white;
+}
+.container {
+    padding:16px;
+}
+.title {
+    color: grey;
+}
+footer{
+    text-align: center;
+    padding: 20px ;
+    background-color: #03b9d5;
+    height: 50px;
+    font-size: large;
+    margin-top: 5px;
+}
